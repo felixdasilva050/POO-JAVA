@@ -201,3 +201,7 @@ nbdist/
 # Ignore all local history of files
 .history
 .ionide
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+POO-JAVA.iml
