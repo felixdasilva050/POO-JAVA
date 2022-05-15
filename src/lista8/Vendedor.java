@@ -11,6 +11,22 @@ public class Vendedor extends Empregado{
         this.comissao = comissao;
     }
 
+    public Double getValorVendas() {
+        return valorVendas;
+    }
+
+    public void setValorVendas(Double valorVendas) {
+        this.valorVendas = valorVendas;
+    }
+
+    public Double getComissao() {
+        return comissao;
+    }
+
+    public void setComissao(Double comissao) {
+        this.comissao = comissao;
+    }
+
     @Override
     public Double calcularSalario() {
         return super.calcularSalario() + comissao;
